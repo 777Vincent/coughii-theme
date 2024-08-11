@@ -484,3 +484,23 @@ a.link_c91bad[data-list-item-id*="nitro"] {
 .container_c32acf, .overlayBackground_c69a7b, .overlay_e9e42f, .overlay_f9da1d {
     padding-top: 40px;
 }
+[class^=panels] > [class^=container] /* User area redesign */
+{
+    height: unset !important; /* Height being dynamic is fine */
+    align-items: unset !important; /* Don't need that */
+    padding: 6px 8px !important; /* Let those boxes breathe */
+    flex-direction: column-reverse !important; /* instead of going one next to the other, go stacked */
+    gap: 2px !important; /* Again let them breathe */
+}
+
+[class^=avatarWrapper] /* Change the user box */
+{
+    margin-right: unset !important; /* Useless */
+    margin-left: unset !important; /* Useless */
+    padding-left: 4px !important; /* Make it slightly bigger for consistency with the right side */
+}
+
+[class^=container] > [class*=buttons] /* Change the quick actions */
+{
+    justify-content: space-evenly !important; /* Let them breathe */
+}
