@@ -537,5 +537,8 @@ a.link_c91bad[data-list-item-id*="nitro"] {
 }
 [class^=userPanelOuter] [class^=bannerSVGWrapper] {
     position: absolute;
-    top: 193px;
+    top: 273px;
+}
+.avatarWrapper_f89da9 {
+    top: 156px;
 }
