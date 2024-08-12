@@ -482,9 +482,6 @@ a.link_c91bad[data-list-item-id*="nitro"] {
 [class*="resize"] {
 	cursor: url('./theme-resources/diagonal_1.gif'), pointer !important;
 }
-.overlayBackground_c69a7b, .overlay_e9e42f, .overlay_f9da1d {
-    padding-top: 40px;
-}
 .userTag_c32acf {
 	padding-top: 23px;
 }
