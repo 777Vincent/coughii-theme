@@ -539,6 +539,9 @@ a.link_c91bad[data-list-item-id*="nitro"] {
     position: absolute;
     top: 192px;
 }
+:is([class*="userProfile"], [class*="userPopout"]) [class*="bannerPremium"] {
+    top: 92px;
+}
 .avatarWrapper_f89da9 {
     top: 156px;
 }
