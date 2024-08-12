@@ -535,9 +535,9 @@ a.link_c91bad[data-list-item-id*="nitro"] {
     shape-rendering: geometricPrecision;
     vector-effect: non-scaling-stroke;
 }
-[class^=userPanelOuter] [class^=bannerSVGWrapper] { 
+[class^=userPanelOuter] [class^=bannerSVGWrapper] {
     position: absolute;
-    top: 273px;
+    top: 192px;
 }
 .avatarWrapper_f89da9 {
     top: 156px;
