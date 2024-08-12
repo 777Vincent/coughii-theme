@@ -563,7 +563,7 @@ a.link_c91bad[data-list-item-id*="nitro"] {
     margin: 12px 16px;
     top: 160px;
 }
-.userPanelInnerThemed_c69a7b .statusBubbleOuter_d0a252 {
+.userPanelInnerThemed_c69a7b .visibleContainer_d0a252.panel_d0a252 {
     background-color: rgba(0, 0, 0, .6);
     border-color: rgba(0, 0, 0, 0);
     top: 160px;
