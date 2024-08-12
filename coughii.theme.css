@@ -536,7 +536,6 @@ a.link_c91bad[data-list-item-id*="nitro"] {
     vector-effect: non-scaling-stroke;
 }
 [class^=userPanelOuter] [class^=bannerSVGWrapper] {
-    position: absolute;
     top: 192px;
 }
 .banner_c3e427.panelBanner_c3e427.bannerPremium_c3e427 {
