@@ -484,6 +484,9 @@ a.link_c91bad[data-list-item-id*="nitro"] {
 .container_c32acf, .overlayBackground_c69a7b, .overlay_e9e42f, .overlay_f9da1d {
     padding-top: 40px;
 }
+.usernameRow_c32acf {
+	padding-top: 10px
+}
 [class^=panels] > [class^=container] /* User area redesign */
 {
     height: unset !important; /* Height being dynamic is fine */
