@@ -535,11 +535,11 @@ a.link_c91bad[data-list-item-id*="nitro"] {
     shape-rendering: geometricPrecision;
     vector-effect: non-scaling-stroke;
 }
-[class^=userPanelOuter] [class^=bannerSVGWrapper] {
+.banner_c3e427.divider_c3e427.panelBanner_c3e427.bannerPremium_c3e427 {
     position: absolute;
     top: 192px;
 }
-:is([class*="userProfile"], [class*="userPopout"]) [class*="bannerPremium"] {
+.banner_c3e427.panelBanner_c3e427.bannerPremium_c3e427 {
     top: 92px;
 }
 .avatarWrapper_f89da9 {
