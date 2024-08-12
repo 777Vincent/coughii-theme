@@ -41,6 +41,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
+  --user-popout-overlay: rgba(0,0,0,0.85);
   --user-modal-image: transparent;
   --user-modal-position: center;
   --user-modal-size: cover;
