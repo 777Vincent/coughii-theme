@@ -551,6 +551,7 @@ a.link_c91bad[data-list-item-id*="nitro"] {
     user-select: text;
     top: 250px;
     position: fixed;
+    width: -webkit-fill-available;
 }
 .userPanelInnerThemed_c69a7b .overlay_e9e42f {
     display: flex;
@@ -561,13 +562,13 @@ a.link_c91bad[data-list-item-id*="nitro"] {
 }
 .userPanelInnerThemed_c69a7b .overlay_f9da1d {
     margin: 12px 16px;
-    top: 260px;
+    top: 152px;
 }
 .visibleContainer_d0a252.panel_d0a252 {
     background-color: rgba(0, 0, 0, .6);
     border-color: rgba(0, 0, 0, 0);
-    top: 240px !important;
+    top: 152px !important;
 }
 .activity_cd74cc {
-    top: 160px;
+    top: 240px;
 }
