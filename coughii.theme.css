@@ -483,10 +483,10 @@ a.link_c91bad[data-list-item-id*="nitro"] {
 	cursor: url('./theme-resources/diagonal_1.gif'), pointer !important;
 }
 .userTag_c32acf {
-	padding-top: 23px;
+	padding-top: 0;
 }
 .clickableUsername_c32acf {
-	padding-bottom: 20px;
+	padding-bottom: 0;
 }
 [class^=panels] > [class^=container] /* User area redesign */
 {
@@ -534,7 +534,7 @@ a.link_c91bad[data-list-item-id*="nitro"] {
     vector-effect: non-scaling-stroke;
 }
 [class^=userPanelOuter] [class^=bannerSVGWrapper] {
-    top: 192px;
+    top: 0;
 }
 .banner_c3e427.panelBanner_c3e427.bannerPremium_c3e427 {
     top: 92px;
