@@ -534,7 +534,7 @@ a.link_c91bad[data-list-item-id*="nitro"] {
     vector-effect: non-scaling-stroke;
 }
 .mask_c3e427 {
-    top: 0;
+    top: unset;
 }
 .header_b07019 .mask_c3e427 {
     top: 162px;
