@@ -539,6 +539,9 @@ a.link_c91bad[data-list-item-id*="nitro"] {
 .header_b07019 .mask_c3e427 {
     top: 162px;
 }
+[class^=fullSizeOuter] > [class^=userProfileModalInner] .mask_c3e427 {
+    top: 288px;
+}
 .avatarWrapper_f89da9 {
     top: 156px;
 }
