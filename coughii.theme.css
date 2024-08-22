@@ -575,10 +575,4 @@ a.link_c91bad[data-list-item-id*="nitro"] {
 .gradient_aa1bff, .footer_aa1bff {
     background: none;
 }
-[class*=userProfileOuter]:not([class^=userProfileModalOuter]) > div, [class*=userProfileOuter]:not([class^=userProfileModalOuter]) > div > [class^=none] {
-    gap: 12px;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    max-height: unset !important;
-}
+
