@@ -5,22 +5,35 @@
  * @description comfy and warm coffee shop yttd theme.
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
-@import url('https://raw.githubusercontent.com/Vortex-Chaos/Discord-Connections-Glow/main/Code.css');
-@import url("https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/main.css");
-@import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+/* HideNitroUpsellV2 */
+@import url("https://raw.githubusercontent.com/tom22k/discord-css/main/Themes/HideNitroUpsellV2.css");
+/* Inline CS */
+@import url("https://raw.githubusercontent.com/Bitslayn/RepluggedAddons/main/themes/btw.bitslayn.inlineStatus/raw/main.css");
+/* Revert Compact Profiles */
 @import url("https://raw.githubusercontent.com/Bitslayn/RepluggedAddons/main/themes/btw.bitslayn.revertProfiles/raw/main.css");
-
+/* spotify redesign */
+@import url("https://raw.githubusercontent.com/tom22k/discord-css/main/Themes/SpotifyRedesignV2.css");
+/* prompt */
+@import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
+@import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css");
+:root {
+    --prompt-text: "be silly :3"; /* replace --prompt-text with your desired text if you want */
+}
 :root {
   --main-color: #A75353;
   --hover-color: #FF00A8;
-  --success-color: #43b581;
-  --danger-color: #a70000;
-  --url-color: var(--main-color);
-  --background-image: url('https://i.imgur.com/qKrBU7U.png');
-  --background-shading: 56%;
+  --success-color: #43B581;
+  --danger-color: #A70000;
+  --url-color: #A75353;
+  --background-image: url('https://files.catbox.moe/zjrwzo.png');
+  --background-shading: 80%;
   --background-position: center;
-  --background-size: contain;
+  --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
   --background-brightness: 100%;
@@ -28,11 +41,11 @@
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 2px;
-  --background-overlay: rgba(0,0,0,0.6);
+  --background-blur: 0px;
+  --background-overlay: rgb(0,0,0,0.59);
   --user-popout-image: transparent;
   --user-popout-position: center;
-  --user-popout-size: auto;
+  --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
   --user-popout-brightness: 100%;
@@ -41,7 +54,6 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-popout-overlay: rgba(0,0,0,0.85);
   --user-modal-image: transparent;
   --user-modal-position: center;
   --user-modal-size: cover;
@@ -53,19 +65,19 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://i.imgur.com/hEEMu9H.jpg');
+  --home-icon: url('https://files.catbox.moe/hztqpe.jpeg');
   --home-position: center;
   --home-size: 50px;
   --channel-unread: var(--main-color);
-  --channel-color: rgba(255,255,255,0.3);
+  --channel-color: rgb(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
-  --online-color: #43b581;
-  --idle-color: #faa61a;
-  --dnd-color: #982929;
-  --streaming-color: #593695;
+  --online-color: #00FF8B;
+  --idle-color: #FF9F00;
+  --dnd-color: #FF0000;
+  --streaming-color: #5E00FF;
   --offline-color: #808080;
-  --main-font: gg sans;
-  --code-font: Consolas;
+  --main-font: Nunito;
+  --code-font: JetBrains Mono;
   --channels-width: 220px;
   --members-width: 240px;
   --backdrop-overlay: rgba(0,0,0,0.8);
@@ -84,90 +96,14 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
+  --columns: 1;
+  --guildgap: 6;
+  --aligndms: 0;
 }
 
 /* Any custom CSS below here */
-.link_d8bfb3 {
-    border: 1px solid rgba(167, 83, 83, .4);
-}
 
-.link_d8bfb3:hover {
-    border: 2px solid rgba(167, 83, 83, 1);
-}
-
-.link_c91bad {
-    border: 1px solid rgba(167, 83, 83, .4);
-}
-
-.link_c91bad:hover {
-    border: 2px solid rgba(167, 83, 83, 1);
-}
-
-.userPopoutInner_c69a7b {
-    border: 1px solid rgba(167, 83, 83, .4);
-}
-
-.userPopoutInner_c69a7b:hover {
-    border: 1px solid rgba(167, 83, 83, 1);
-}
-
-.row_c5b389 {
-    border: 1px solid rgba(167, 83, 83, .4);
-}
-
-.row_c5b389:hover {
-    border: 2px solid rgba(167, 83, 83, 1);
-}
-
-.message_d5deea {
-    border: 1px solid rgba(167, 83, 83, .1);
-}
-
-.message_d5deea:hover {
-    border: 1px solid rgba(167, 83, 83, .3);
-}
-
-.standardSidebarView_c25c6d .sidebar_c25c6d .side_a0 .item_a0 {
-	color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(167, 83, 83, .4);
-	font-weight: 100;
-}
-
-.standardSidebarView_c25c6d .sidebar_c25c6d .side_a0 .item_a0:hover {
-	color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(167, 83, 83, 1);
-	font-weight: 100;
-}
-
-.channelTextArea_d0696b .scrollableContainer_d0696b {
-	border: 2px solid rgba(167, 83, 83, .2);
-}
-
-.menu_d90b3d .item_d90b3d {
-	border: 1px solid rgba(167, 83, 83, .2);
-}
-
-.platform-win .scroller_fea3ef, .platform-osx .scroller_fea3ef {
-	border-right: 2px solid rgba(167, 83, 83, .2);
-}
-
-.container_adcaac {
-	border-top: 2px solid rgba(167, 83, 83, .2);
-}
-
-.privateChannels_f0963d .scroller_c47fa9 {
-	border-right: 2px solid rgba(167, 83, 83, .2);
-	border-top: 2px solid rgba(167, 83, 83, .2);
-}
-
-.searchBar_f0963d {
-	border-right: 2px solid rgba(167, 83, 83, .2);
-	border-top: 2px solid rgba(167, 83, 83, .2);
-}
-
-.platform-win .sidebar_a4d4d9 {
-	border-right: 2px solid rgba(167, 83, 83, .2);
-}
+/* LOGOOOOO :DDD */
 
 .wordmark_a934d8.wordmark_a934d8 svg {
   display: none;
@@ -182,207 +118,9 @@
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAAAXNSR0IArs4c6QAAAN9JREFUOI3FlLEKwjAQhr9EoRaXgjjqUgSnPkRfovQJi6/jJHTTUQouUgdrnE5iSKNFsD9kyP//uRyXyynAFFmMoG46NosJAOfrg+VcvzTZ101HMlMAb7p4BLYmZ2xut28hTyMDjLKKLDZTyajcrvknqsORuunQLlkdjl6zyw/xCu8imSm0/WbQXwkfX27X3sChatr+5VyjLzfzMdNQMN9lfTF8vJaOFwzphb6qDPFrj++v+CmBb5stBLVKpuZ0uY/yDfM0giKLRxtEeRoZhTWK3THqjmIbIc3WQ77dvuUJRnmsW0O/DlkAAAAASUVORK5CYII=);
 }
 
-.container_da1432 {
-	display: none;
-}
+/* end of logo :3 */
 
-/* Replace the settings donation banner image */
-img[role="presentation"] {
-  content: url('https://www.dropbox.com/scl/fi/o8yaczv10do6irnhiyp8a/New-Project-3.png') !important;
-  transform: rotate(0deg) !important;
-}
-
-/* Custom Emoji Button */
-.sprite_d91a75.spriteColored_d91a75 {
-    background-image: url(https://cdn3.emoji.gg/emojis/1210-pixel-hot-coffee.png);
-    background-size: 24px;
-}
-
-.sprite_d91a75.spriteGreyscale_d91a75 {
-    background-image: url(https://previews.dropbox.com/p/thumb/ACNOJrwXZi8x3xvIWxoVTuQVLnUuzQTd7zzCe938SrcI4CzpwH9R5QNK1VqatSdBbi1OM8062cgpN7yqRfstAHv8JhrdZKXrbTnCzC_PnSuW3jYe8Pzvt0ijERlWN9ClJsnM85ebFqwa47MkqdLHDmEU5Sdi0fRjcV79v1omdbiIBIcxhhLA8sE7TDwG2PBv2-ziBOeUisvBVyK_kudDqzcMTcK6PUPc7rRFZp3Hex4FlJNGfDwqyH6cSvoe0fI3VNTJsrtvzBUV9DXKgY0_zcjUQfwIrPVS1srZYBLOJJk9sHP_odTOktUwQ3SoqmDC25sTPExyMirpaS5tkOP7gzuu/p.png);
-    background-size: 24px;
-}
-
-.container_e40c16 video.ready_e40c16 {
-    display: none;
-}
-.content_e40c16::before {
-    visibility: visible;
-    content: '';
-    display: block;
-    background: url(https://www.dropbox.com/scl/fi/ggwh4rc9lhog457zlkgm5/output-onlinegiftools4-ezgif.com-apng-to-gif-converter.gif?rlkey=jank1xzf8x4p19v6q0cqhj2bu&dl=0&?size=240);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 128px;
-    height: 128px;
-    margin: auto;
-    margin-bottom: 48px;
-}
-
-:is([class^="inlineMediaEmbed_"], [class^="messageAttachment_"]) {
-  max-width: 550px !important;
-  max-height: 550px !important;
-}
-:is([class^="inlineMediaEmbed_"], [class^="messageAttachment_"]) [class^="imageWrapper_"] {
-  max-width: 550px !important;
-  max-height: 550px !important;
-  width: max-content !important;
-  height: max-content !important;
-  aspect-ratio: unset !important;
-}
-:is([class^="inlineMediaEmbed_"], [class^="messageAttachment_"]) [class^="imageWrapper_"] :is(img, video) {
-  max-width: 550px !important;
-  max-height: 550px !important;
-  width: max-content !important;
-  height: max-content !important;
-}
-:is([class^="inlineMediaEmbed_"], [class^="messageAttachment_"]) [class^="imageWrapper_"] [class^="loadingOverlay_"] {
-  aspect-ratio: unset !important;
-}
-[class^="oneByOneGrid_"] {
-  max-height: 550px !important;
-}
-[class^="imageContainer_"]:has([aria-label="GIF"]) + [class^="altText_"] {
-  display: none;
-}
-
-[class^="embedWrapper_"]:has(iframe),
-[class^="embedWrapper_"]:has(img[src*="i.ytimg.com"]) {
-  max-width: 550px !important;
-
-  [class^="gridContainer_"] {
-    max-width: 550px !important;
-  }
-
-  [class*="embedMedia_"] {
-    max-width: 550px !important;
-    max-height: unset !important;
-
-    [class^="imageWrapper_"] {
-      max-width: 550px !important;
-      aspect-ratio: 16/9 !important;
-
-      img {
-        max-width: 550px !important;
-        max-height: unset !important;
-        aspect-ratio: 16/9 !important;
-      }
-    }
-
-    & > [class^="embedVideo_"] {
-      max-width: 550px !important;
-      aspect-ratio: 16/9;
-      padding: 0 !important;
-
-      & > iframe {
-        max-width: unset !important;
-        max-height: unset !important;
-        width: 100% !important;
-        height: 100% !important;
-      }
-    }
-  }
-}
-
-[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
-
-@font-face
- { font-family: "Twemoji Mozilla";
-   src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf") format("truetype");
-   unicode-range: U+1F1E6-1F1FF; }
-@font-face
- { font-family: "dashless";
-   size-adjust: 100%; /*adjust this to change word spacing*/
-   src: url("https://vendicated.github.io/random-files/Dashless.woff2") format("woff2");
-   unicode-range: U+002D; }
-[data-list-item-id^=channels___]:not([role=button]), /* channel list */
-[class^=titleWrapper] > h1, /* top bar with topic */
-[class^=titleWrapper] > h2, /* top bar in thread view */
-[id^=":r"] > h1, /* topic popup */
-[class^=resultChannel], [class^=channelNameContainer_], [class^=searchAnswer_], /* search */
-[class^=autocompleteRowContent_] [class*=autocompleteRowHeading_], /* chat autocomplete */
-.channelWithIcon, /* channel mentions in chat */
-[class^=emptyChannelIcon_] + h3, /* start of new channel */
-[class^=emptyChannelIcon_] ~ [class*=description_],
-[class^=browser_] [class*=channelText_], /* channel browser*/
-[class^=returnButton_] [class^=text-], /*return button in channel browser*/
-[class^=placeholder][class*=slateTextArea], /* chat input placeholder text */
-[class^=auditLog_] [class^=overflowEllipsis_] strong, /* audit log */
-.vc-permviewer-perms-title, /* permissionsviewer */
-[class^=headerChannelContainer_] > div, /* invite to channel dialog */
-[class^=uploadDropModal_] strong, /* file drag upload */
-[class^=channelNameSpan_], /* inbox */
-[class^=quickswitcher_] [class^=name_] /* ctrl+k */
- { font-family: "Twemoji Mozilla", "dashless", var(--font-primary); }
-[class^=emptyChannelIcon_] ~ [class*=description_] > *
- { font-family: var(--font-primary); }
- 
- button.button_adca65 /* make user panel buttons round */ {
-    border-radius: 50%;
-}
-.button_adca65:last-child /* settings button */, 
-.attachButton_f298d4 .attachButtonInner_f298d4 /* upload button */,
-.emojiButton_d0696b .contents_dd4f85 /* emoji button */,
-.closeButton_df5532 /* settings exit button */ {
-    transition: transform 1s ease;
-}
-.button_adca65:last-child:hover,
-.attachButton_f298d4:hover .attachButtonInner_f298d4,
-.emojiButton_d0696b:hover .contents_dd4f85,
-.closeButton_df5532:hover {
-    transform: rotate(360deg);
-}
-
-[data-list-id="guildsnav"]>div>div>div:has(>div[style*="background: url(\"https://cdn.discordapp.com/assets/signups"]) {display:none}
-
-#vc-spotify-player {
-    --blur-amount: 2px; /* higher px = stronger blur, 0 = no blur */
-    --darken-percent: 0.8; /* 0 = album cover is not darkened, 1 = album cover is darkened fully (black) */
-}
-
-#vc-spotify-player {
-    background: transparent !important;
-    position: relative;
-}
-
-#vc-spotify-player > * {
-    position: relative;
-    z-index: 1;
-}
-
-#vc-spotify-player::after {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: linear-gradient(rgba(0, 0, 0, var(--darken-percent)),
-            rgba(0, 0, 0, var(--darken-percent))), var(--vc-spotify-track-image);
-    background-size: cover;
-    filter: blur(var(--blur-amount));
-    clip-path: inset(0);
-}
-
-.button_f7e168 {
-	border: 1px solid rgb(167, 83, 83);
-	background-color: rgba(0, 0, 0, .2)
-}
-.wrapper_f7e168 {
-	background-color: rgba(0, 0, 0, .2)
-}
-.pictureInPicture_e0c856,.channelAppLauncher_df39bd {
-    display: none;
-} 
-.svg_c5f96a {
-	border: 1px solid rgba(167, 83, 83, .4);
-	background-color: rgba(0, 0, 0, .6)
-}
-.svg_c5f96a:hover {
-    border: 1px solid rgba(167, 83, 83, 1);
-}
+/*cursor*/
 [class*="button"] {
   cursor: url('./theme-resources/select.gif'), pointer !important;
 }
@@ -404,32 +142,191 @@ img[role="presentation"] {
 [class*="markup_f8f345 editor_a552a6 slateTextArea_e52116 fontSize16Padding_d0696b"] {
   cursor: text !important;
 }
-.tooltip_b6c360 {
-	border: 2px solid rgb(167, 83, 83);
-	background-color: rgba(0, 0, 0, .6)
+/*end of cursor*/
+
+/* borders */
+.message_d5deea {
+    border: 1px solid rgba(167, 83, 83, .1);
 }
-.container_e5a42d {
-	border: 1px solid rgb(167, 83, 83);
-	background-color: rgba(0, 0, 0, .6)
+
+.message_d5deea:hover {
+    border: 1px solid rgba(167, 83, 83, .5);
 }
-[class^=roleCircle_]::before {
-	opacity: 1 !important;	
-	filter: brightness(20%) contrast(1) saturate(550%) !important;
-	}
-[class^=roleName_] {position: relative;}
-[class*=username_][style],
-.mention[style],
-[class*=membersGroup_] [style]
- { filter:contrast(.2) brightness(1.2) saturate(500%); }
-[class^=roleCircle_]::before {
-	border: 1px solid rgb(167, 83, 83);
+
+.scroller_fea3ef {
+	background-color: #0000004a;
 }
-.header_fd6364 {
-	border: 3px solid rgb(167, 83, 83);
+.standardSidebarView_c25c6d .sidebar_c25c6d .side_a0 .item_a0 {
+    position: relative;
+    padding: 8px 20px;
+    color: rgb(255 255 255 / 58%);
+    margin: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgba(167, 83, 83, 1);
 }
-.vc-platform-indicator {
-	border: 1px solid rgb(167, 83, 83);
-}/* Change the first path definition of the volume icon SVG to be the moving part of my new animated SVG */
+.menu_d90b3d .item_d90b3d {
+	border: 1px solid rgba(167, 83, 83, 1);
+	background-color: black;
+}
+/* end of borders */
+
+/* unsimplify profiles */
+[class^="descriptionClamp_"] {
+    display: block!important;
+}
+
+/* square >:3 */
+
+:root
+ { --nviconradius: 5%; } /*percentage works best*/
+
+[class^=embedAuthorIcon_], /*for things like github webhook*/
+[class^=wrapperSimple_], /*servericons*/
+[class^=folder_],
+[class^=folderIconWrapper_],
+[class^=folderIconWrapper_] [class^=icon_],
+[class^=expandedFolderBackground_],
+[class^=gameIcon_], /*activity icon in channellist*/
+[class^=applicationLargeImage_], /*activity icon in popup*/
+foreignObject[mask*="url(#"]
+ { border-radius: var(--nviconradius) !important; }
+foreignObject[mask*="url(#"]
+ { mask: none !important; }
+[class^=gameIcon_]
+ { border: none; }
+
+/* end of square >:3 */
+
+/* remove discovery because fuck ur adverts */
+
+[data-list-id="guildsnav"] [class^="footer"]:has(>[class^="gradient"]) {
+  display: none;
+}
+
+/* hides recent activity bc fuck new shit :3 */
+
+[class^='membersGroup']:has([role=button]),
+[class^='member'] [class^='container']:has([class*='badges']) {
+  display: none;
+}
+
+/* better profiles */
+
+/* Match Badges Border Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [aria-label="User Badges"] {
+  border-color: var(--profile-gradient-button-color);
+}
+/* Match Full Size Profile Box Border Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=fullSizeOverlayBackground] {
+  border-color: var(--profile-gradient-button-color)!important;
+}
+/* Add Panel Profile Box Border Color with Profile Button Color for Custom Profiles */
+[class^=userPanelInner_] :is([class^=overlayBackground_], [class^=activityBiteSizePopout_]) {
+  border: 1px solid var(--profile-gradient-button-color);
+}
+/* Match Profile Scroller with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class*=scrollerBase_]::-webkit-scrollbar-thumb {
+  background-color: var(--profile-gradient-button-color);
+}
+/* Match Clan Button Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=chipletContainerInner_] {
+  background: var(--profile-gradient-button-color);
+}
+/* Match Show More Roles and View Permissions (Permissions Plugin) Border Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme :is([class^=expandButton_], [class^=collapseButton_], .vc-permviewer-role-button)  {
+  border-color: var(--profile-gradient-button-color);
+}
+/* Add Border to Activities and Match with Profile Button Color for Custom Profiles */
+.custom-profile-theme :is([class^=biteSizeOverlayBackground_], [class^=scroller_] [class^=section_] [class*=card_]) {
+  border: 1px solid var(--profile-gradient-button-color)!important;
+}
+/* Match Connections Border Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=connectedAccountContainer_] {
+    border-color: var(--profile-gradient-button-color);
+}
+
+/* server banner stays */
+
+/*     Visible Server Banner     */
+[class^="container_"]:not([class*="bannerVisible_"]) >
+[class^="animatedContainer_"] {
+  top: 3px;
+}
+[class*="animatedContainer_"] {
+  opacity: 1 !important;
+}
+[class*="headerContent_"] {
+  filter: drop-shadow(0 1px 1px var(--bg-backdrop));
+}
+/* AMOLEDCord fix */
+[class^="sidebar_"] header {
+  background-color: transparent !important;
+}
+
+/* Modernized audio attachments */
+
+/*     Modernized audio attachments      */
+[class^="mosaicItem"] > [class^="wrapperAudio"] > [class^="audioMetadata"] {
+  margin-bottom: 24px;
+}
+[class^="mosaicItem"] > [class^="wrapperAudio"] > [class^="audioControls"] {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+/* pf fix */
+
+[class^=focusLock]:has([class*=userProfileOuter])
+{
+    --custom-user-profile-width-full-size: min-content !important;
+    min-width: 600px !important;
+}
+
+/* tag fix */
+
+[class^=botTagCompact], /* reorder tegs in replies */
+[class^=repliedTextPreview], /* reorder message in replies */
+[class^=repliedTextContentTrailingIcon] /* reorder icon that can come after the message in replies */
+{
+    order: 1 !important; /* default order is 0 so putting it to 1 put it after */
+}
+
+/* User Area Redesigned */
+
+[class^=panels] > [class^=container] /* User area redesign */
+{
+    height: unset !important; /* Height being dynamic is fine */
+    align-items: unset !important; /* Don't need that */
+    padding: 6px 8px !important; /* Let those boxes breathe */
+    flex-direction: column-reverse !important; /* instead of going one next to the other, go stacked */
+    gap: 2px !important; /* Again let them breathe */
+}
+
+[class^=avatarWrapper] /* Change the user box */
+{
+    margin-right: unset !important; /* Useless */
+    margin-left: unset !important; /* Useless */
+    padding-left: 4px !important; /* Make it slightly bigger for consistency with the right side */
+}
+
+[class^=container] > [class*=buttons] /* Change the quick actions */
+{
+    justify-content: space-evenly !important; /* Let them breathe */
+}
+
+/* remove app launcher, fuck you discord */
+
+[class*=channelAppLauncher_] {
+  display: none;
+}
+
+/* animated vc icon */
+
+/* Change the first path definition of the volume icon SVG to be the moving part of my new animated SVG */
 .containerDefault_f6f816:has([class*="voiceUser_"]) .iconContainer_d8bfb3 svg.icon_d8bfb3 path[d^="M15.16"] {
     d: path("M15.1 20.75c-.58.14-1.1-.33-1.1-.92v-.03c0-.5.37-.92.85-1.05a7 7 0 0 0 0-13.5A1.11 1.11 0 0 1 14 4.2v-.03c0-.6.52-1.06 1.1-.92a9 9 0 0 1 0 17.5Z");
     animation-name: volume-icon-anim;
@@ -457,6 +354,11 @@ img[role="presentation"] {
     0%, 100% {color: transparent;}
     50%  {color: var(--red-400);}
 }
+
+/* Detailed Timestamps */
+
+/* ads */
+
 /* Remove Settings Ads */
 div.side_a0 > div.item_a0[data-tab-id="Discord Nitro"] {
   display: none !important;
@@ -465,117 +367,13 @@ div.side_a0 > div.item_a0[data-tab-id="Nitro Server Boost"] {
   display: none !important;
 }
 /* --- */
-[class*="modeMuted_"]:has([class^="icon_"]) [class^="name_"] {
-    color: var(--channel-icon);
-    opacity: 40%;
-}
-.expandedFolderBackground_bc7085 {
-    background: rgb(85 69 69 / 76%);
-}
-.nowPlayingColumn_c2739c {
-  display: none !important;
-}
 
-a.link_c91bad[data-list-item-id*="nitro"] {
-  display: none !important;
-}
-[class*="resize"] {
-	cursor: url('./theme-resources/diagonal_1.gif'), pointer !important;
-}
-.userTag_c32acf {
-	padding-top: 0;
-}
-.clickableUsername_c32acf {
-	padding-bottom: 0;
-}
-[class^=panels] > [class^=container] /* User area redesign */
-{
-    height: unset !important; /* Height being dynamic is fine */
-    align-items: unset !important; /* Don't need that */
-    padding: 6px 8px !important; /* Let those boxes breathe */
-    flex-direction: column-reverse !important; /* instead of going one next to the other, go stacked */
-    gap: 2px !important; /* Again let them breathe */
-}
+/* activies match profile theme */
 
-[class^=avatarWrapper] /* Change the user box */
-{
-    margin-right: unset !important; /* Useless */
-    margin-left: unset !important; /* Useless */
-    padding-left: 4px !important; /* Make it slightly bigger for consistency with the right side */
+/* Match Activity Buttons Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=activityBiteSizePopout_] button,
+.custom-profile-theme [class^=activitySimplifiedProfile_] button {
+  background-color: var(--profile-gradient-button-color)!important;
 }
-
-[class^=container] > [class*=buttons] /* Change the quick actions */
-{
-    justify-content: space-evenly !important; /* Let them breathe */
-}
-[class^=biteSizeOuter]:not(:has([class^=banner][style*=background-image])) > div {
-    padding-top: 100px;
-}
-.statusBubble_d0a252 {
-    position: relative;
-    padding-left: 28px; /* Adjust padding to make space for the icon */
-}
-
-.statusBubble_d0a252::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 24px; /* Adjust the width as needed */
-    height: 24px; /* Adjust the height as needed */
-    background-image: url('./theme-resources/themestatus2.png');
-    background-size: cover;
-    transform: translateY(-50%);
-	image-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    shape-rendering: geometricPrecision;
-    vector-effect: non-scaling-stroke;
-}
-.mask_c3e427 {
-    top: 0;
-}
-.header_b07019 .mask_c3e427 {
-    top: 162px;
-}
-[class^=fullSizeOuter] > [class^=userProfileModalInner] .mask_c3e427 {
-    top: 288px;
-}
-.avatarWrapper_f89da9 {
-    top: 156px;
-}
-.overlayBackground_c69a7b.overlay_b433b4 {
-    top: 106px;
-}
-.userPanelInnerThemed_c69a7b .container_c32acf {
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    user-select: text;
-    top: 250px;
-    position: fixed;
-    width: -webkit-fill-available;
-}
-.userPanelInnerThemed_c69a7b .overlay_e9e42f {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding: 12px;
-    top: 152px;
-}
-.userPanelInnerThemed_c69a7b .overlay_f9da1d {
-    margin: 12px 16px;
-    top: 152px;
-}
-.visibleContainer_d0a252.panel_d0a252 {
-    background-color: rgba(0, 0, 0, .6);
-    border-color: rgba(0, 0, 0, 0);
-    top: 152px !important;
-}
-.activity_cd74cc {
-    top: 152px;
-}
-.gradient_aa1bff, .footer_aa1bff {
-    background: none;
 }
 
