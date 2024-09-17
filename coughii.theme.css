@@ -376,3 +376,14 @@ div.side_a0 > div.item_a0[data-tab-id="Nitro Server Boost"] {
   background-color: var(--profile-gradient-button-color)!important;
 }
 
+/* profile scale fix */
+
+[class*=userProfileOuter] {
+    width: 100vh;
+    height: 100vh;
+}
+[class^=focusLock]:has([class*=userProfileOuter]) {
+    --custom-user-profile-width-full-size: 100vh !important;
+    --custom-user-profile-height-full-size: 100vh !important;
+    min-width: 100vh !important;
+}
