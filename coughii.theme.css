@@ -139,7 +139,7 @@
 [class*="Clickable"] {
   cursor: url('./theme-resources/select.gif'), pointer !important;
 }
-[class*="markup_f8f345 editor_a552a6 slateTextArea_e52116 fontSize16Padding_d0696b"] {
+[class*="markup_f8f345 editor_a552a6 slateTextArea_e52116 fontSize16Padding_bdf0de"] {
   cursor: text !important;
 }
 /*end of cursor*/
